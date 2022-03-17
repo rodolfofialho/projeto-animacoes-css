@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Righteous&family=Sarala&display=swap" 
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Righteous&family=Roboto:ital,wght@1,700&family=Sarala&display=swap" rel="stylesheet">
+    <style>
+       *{
+           padding: 0%;
+           margin: 0%;
+           box-sizing: border-box;
+       }
+       body{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100vh;
+           background: rgba(25, 25, 25);
+       }
+       .line{
+           border-right: 2px solid rgba(255, 255, 255, 0.75);
+           color: rgba(255, 255, 255, .75);
+           font-family: 'Roboto', sans-serif;
+           font-size: 3em;
+           margin: 0 auto; 
+           text-align: center;
+           white-space: nowrap;
+           overflow: hidden;
+       }
+
+       .animation {
+           animation: linkCursor 500ms steps(40) infinite normal,
+            typing 4s steps(40) 1s normal both;
+       }
+
+       @keyframes typing{
+           from{
+            width: 0;
+           }
+           to{
+            width: 12em;
+           }
+       }
+
+       @keyframes linkCursor{
+           from{
+            border-right-color: rgba(255, 255, 255, .75);
+           }
+           to {
+            border-right-color: transparent;
+
+           }
+       }
+    </style>
+</head>
+<body>
+    <p class="line animation">Olá, eu sou o Dr. Stein =)</p>
+</body>
+
+</html>
