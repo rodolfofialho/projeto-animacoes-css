@@ -3,6 +3,7 @@ body{
     flex-direction: center;
     justify-content: center;
     align-items: center;
+    background: rgb(22, 22, 22);
 }
 
 #slider{
